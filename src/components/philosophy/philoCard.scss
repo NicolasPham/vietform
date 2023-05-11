@@ -1,0 +1,29 @@
+.philo-Card {
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 24px;
+  box-shadow: 0 0 10px 5px var(--black3);
+  border-bottom: 10px solid var(--yellow);
+  margin-bottom: 80px;
+  background-color: white;
+
+  .philo-Card-Icon {
+    font-size: 48px;
+    margin-top: 62px;
+    color: var(--yellow);
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--black);
+  }
+  p {
+    font-size: 18px;
+    text-align: justify;
+    color: var(--black);
+  }
+}

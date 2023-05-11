@@ -1,0 +1,42 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+
+  //setup size for each card
+  height: 500px;
+  width: 300px;
+  background-color: var(--white);
+  background-image: url("../../assets/backgrounds/homeSection.avif");
+
+  box-shadow: 0 0 10px 10px var(--black3);
+
+  img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    flex: 3;
+  }
+
+  .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0;
+    padding: 0 10px;
+    .title {
+      font-size: 20px;
+      font-weight: 500;
+      font-family: var(--font3);
+      text-align: center;
+      color: var(--yellow);
+    }
+
+    .desc {
+      text-align: center;
+    }
+  }
+}

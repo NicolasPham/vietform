@@ -1,0 +1,214 @@
+.home {
+  width: 100vw;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    //capacity
+    .capacity {
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+
+      .left {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        .title {
+          display: flex;
+          align-items: center;
+          gap: 70px;
+          flex-direction: column;
+          transform: rotate(180deg);
+          margin-right: 0;
+
+          hr {
+            transform: rotate(90deg);
+            width: 100px;
+            border-top: 5px solid var(--red);
+          }
+          h1 {
+            writing-mode: vertical-rl;
+            font-size: 48px;
+            line-height: 10px;
+            font-weight: bold;
+            color: var(--red);
+            letter-spacing: 3px;
+          }
+        }
+
+        .desc {
+          margin-top: 62px;
+          p {
+            font-size: 24px;
+            flex: 1;
+            margin-right: 40px;
+            margin-top: -100px;
+            color: var(--purple);
+            font-weight: 500;
+            margin-bottom: 40px;
+          }
+          button {
+            padding: 10px 20px;
+            border: none;
+            font-family: var(--font3);
+            font-size: 18px;
+            background-color: var(--red);
+            color: var(--white);
+            margin-left: 20px;
+            cursor: pointer;
+          }
+        }
+      }
+      .right {
+        flex: 2;
+        img {
+          // flex: 4;
+          width: 100%;
+          height: 600px;
+          object-fit: cover;
+        }
+      }
+    }
+
+    //options
+    .options {
+      margin-top: 92px;
+      padding: 40px 0;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url("../assets/backgrounds/home-options.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: var(--black3);
+
+      h1 {
+        font-family: var(--font3);
+        font-size: 80px;
+        color: var(--red);
+        font-weight: 900;
+        letter-spacing: 0.5px;
+        margin-top: 48px;
+      }
+      hr {
+        border-top: 5px solid red;
+        width: 200px;
+        margin-bottom: 40px;
+        margin-left: -100px;
+        margin-top: 10px;
+      }
+
+      .options-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 40px;
+        margin-top: 48px;
+        margin-bottom: 62px;
+        gap: 4rem;
+
+        .option {
+          width: 300px;
+          height: 300px;
+          position: relative;
+          box-shadow: 0 0 10px 2px var(--black2);
+          border-radius: 10px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+            border-radius: 10px;
+          }
+
+          .link {
+            z-index: 1;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0%;
+            top: 0%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+
+            span {
+              height: 100%;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-family: var(--font3);
+              font-size: 36px;
+              font-weight: 800;
+              letter-spacing: 4px;
+              text-align: center;
+              color: var(--white);
+              opacity: 0.5;
+
+              &:hover {
+                backdrop-filter: blur(10px);
+                background-color: rgba(0, 0, 0, 0.2);
+                -webkit-backdrop-filter: blur(5px);
+                color: var(--red);
+                opacity: 1;
+                border-radius: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .home-philosophy {
+      width: 100vw;
+      background-image: url("https://img.freepik.com/premium-vector/background-white-elegant-texture_23-2148438404.jpg?w=1380");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .capacity {
+    gap: 10px;
+
+    .left {
+      flex: 2;
+    }
+
+    .right {
+      flex: 1;
+    }
+  }
+
+  .options-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .capacity {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+h1 {
+  font-family: var(--font3);
+  font-size: 80px;
+  color: var(--red);
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}

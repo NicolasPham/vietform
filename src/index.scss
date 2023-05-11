@@ -1,0 +1,76 @@
+/* 
+==================== Color palletes ====================
+- red: #a9163f;
+- orange: #a4413d;
+- brown: #cdb4a5;
+- gray: #85726e;
+- black: #252125;
+
+
+
+
+*/
+
+:root {
+  --25rem: 2.5rem;
+  --175rem: 1.75rem;
+  --135rem: 1.35rem;
+  --11rem: 1.1rem;
+
+  --textColor3: #735f32;
+  --textColor4: #a27b5c;
+
+  --font1: "Abel", sans-serif;
+  --font2: "Courgette", cursive;
+  --font3: "Secular One", sans-serif;
+
+  /*Color codes*/
+  --red: #ff2525;
+  --red2: #f03e3e;
+  --red3: #ffc9c9;
+  --white: #efeefb;
+  --yellow: #ffc03d;
+  --yellow2: #ffec99;
+  --yellow3: #fff9db;
+  --black: #252125;
+  --black2: #495057;
+  --black3: #ced4da;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Abel", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+  background-image: url("https://img.freepik.com/free-vector/simple-white-abstract-gradient-background_53876-99910.jpg?w=1060&t=st=1681453412~exp=1681454012~hmac=1b917ac2ca94164bc9b1ff96b065df04592713260f55a6608c9a4de3a54a64a9");
+  // background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ===== Utils ===== */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,5 @@
+export const introEN = [
+    "Precast concrete is a specilialized term used to described products that are manufactured in factories with high quality for commerical and residential constructions.Precast products are used as retaining wall, floors and roof panels, houses, box culvers, manholes, septic tanks, tunnels, bridge piers, etc. to help contruction activites more flexible and economical.",
+    "Precast technologies has been recently becoming more popular as is in VietNam as they have helped to minimize significantly cost for any projects. Moreover, since all parts are casted in the factories, and only assemble on site, that really fasten the proces, which also turn back to a save cost.",
+    "Vietform corp. is proud to be a precast concrete manufacturer for various key constructions and projects in VietNam"
+]

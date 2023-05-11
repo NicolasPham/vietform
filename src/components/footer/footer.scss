@@ -1,0 +1,40 @@
+footer {
+  width: 100vw;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  background-color: var(--yellow2);
+  .wrapper {
+    padding: 20px 40px;
+    h1 {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 24px;
+      color: var(--purple);
+      margin-bottom: 20px;
+    }
+
+    .contact {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      font-size: 24px;
+
+      .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+
+    .contact {
+      .item {
+      }
+    }
+  }
+}

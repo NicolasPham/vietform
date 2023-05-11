@@ -1,0 +1,107 @@
+.about {
+  width: 100vw;
+  padding: 20px 40px;
+  margin-bottom: 80px;
+  .wrapper {
+    // margin: 60px;
+    .content {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      gap: 40px;
+      background-color: var(--black2);
+
+      .left {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        // gap: 20px;
+        margin-top: 20px;
+        padding: 24px 0px 24px 48px;
+
+        h1 {
+          font-size: 40px;
+          color: var(--red2);
+          font-family: var(--font2);
+        }
+        hr {
+          width: 50%;
+          border-top: 8px solid var(--red2);
+          margin-top: 20px;
+          margin-bottom: 16px;
+        }
+
+        p {
+          font-size: 24px;
+          color: var(--yellow2);
+        }
+      }
+      .right {
+        flex: 2;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    //content reverse
+    .content-reverse {
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      margin-top: 80px;
+      background-color: var(--black2);
+      border-radius: 0 25% 0 40%;
+      overflow: hidden;
+
+      .left {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        padding: 10px 40px;
+
+        .item {
+          display: flex;
+          flex-direction: column;
+          // gap: 20px;
+          h1 {
+            font-size: 40px;
+            color: var(--red2);
+            font-family: var(--font2);
+          }
+          hr {
+            width: 50%;
+            border-top: 8px solid VAR(--red2);
+          }
+
+          p {
+            font-size: 24px;
+            color: var(--yellow2);
+          }
+
+          ul {
+            li {
+              font-size: 20px;
+              color: var(--yellow3);
+              margin-left: 20px;
+            }
+          }
+        }
+      }
+      .right {
+        flex: 2;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}

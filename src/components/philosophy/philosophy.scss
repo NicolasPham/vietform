@@ -1,0 +1,26 @@
+.philosophy {
+  .upper {
+    h1 {
+      font-size: 62px;
+      margin-top: 80px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      color: var(--red);
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    p {
+      font-size: 24px;
+      color: var(--black2);
+      text-align: center;
+      margin-bottom: 48px;
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px;
+  }
+}
